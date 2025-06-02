@@ -1442,13 +1442,6 @@ function getConfigHtml(userID, host, remark, v2ray, clash) {
 	const header = `
 		<p align="left" style="padding-left: 20px; margin-top: 20px;">
 		Telegram交流群 点击加入，技术大佬~在线交流</br>
-		<a href="https://t.me/am_clubs" target="_blank">https://t.me/am_clubs</a>
-		</br></br>
-		GitHub项目地址 点击进入，点下星星给个Star!Star!Star!</br>
-		<a href="https://github.com/${projectName}" target="_blank">https://github.com/${projectName}</a>
-		</br></br>
-		YouTube频道 点击订阅频道，观看更多技术教程</br>
-		<a href="${ytName}?sub_confirmation=1" target="_blank">${ytName}</a>
 		</p>
   `;
 
