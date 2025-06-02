@@ -48,10 +48,10 @@ let ipUrlCsv = [
 ];
 // Preferred addresses with optional TLS subscription
 let ipLocal = [
-	'visa.cn:443#youtube.com/@am_clubs AM科技(订阅频道观看教程)',
-	'icook.hk#t.me/am_clubs TG群(加入解锁免费节点)',
-	'time.is#github.com/amclubs GitHub仓库(关注查看新功能)',
-	'127.0.0.1:1234#amclubss.com (博客)cfnat'
+	'visa.cn:443#测试01',
+	'icook.hk#测试02',
+	'time.is#测试03',
+	'127.0.0.1:1234#cfnat'
 ];
 let noTLS = 'false';
 let sl = 5;
