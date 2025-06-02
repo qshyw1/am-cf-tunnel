@@ -22,7 +22,7 @@ let proxyIPs = [
 // Randomly select a proxy IP from the list
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = 443;
-let proxyIpTxt = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVsL21haW4vcHJveHlpcC50eHQ=');
+let proxyIpTxt = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3FzaHl3MS9hbS1jZi10dW5uZWwvbWFpbi9wcm94eWlwLnR4dA==');
 
 // Setting the socks5 will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
@@ -35,7 +35,7 @@ let parsedSocks5 = {};
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg=';
 
 // Preferred address API interface
-const defaultIpUrlTxt = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVsL21haW4vaXB2NC50eHQ=');
+const defaultIpUrlTxt = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3FzaHl3MS9hbS1jZi10dW5uZWwvbWFpbi9pcHY0LnR4dA==');
 let randomNum = 25;
 let ipUrl = [
 
@@ -44,7 +44,7 @@ let ipUrlTxt = [
 	defaultIpUrlTxt
 ];
 let ipUrlCsv = [
-	// atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FtY2x1YnMvYW0tY2YtdHVubmVsL21haW4vaXB2NC5jc3Y=')
+	// atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3FzaHl3MS9hbS1jZi10dW5uZWwvbWFpbi9pcHY0LmNzdg==')
 ];
 // Preferred addresses with optional TLS subscription
 let ipLocal = [
@@ -2809,7 +2809,7 @@ async function nginx() {
 	Commercial support is available at
 	<a href="http://nginx.com/">nginx.com</a>.</p>
 
-	<p><em>Thank you for using nginx.</em></p>
+	<p><em>Thank you for using nginx！！</em></p>
 	</body>
 	</html>
 	`
